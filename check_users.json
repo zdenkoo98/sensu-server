@@ -1,0 +1,11 @@
+{
+     "checks": {
+        "check-users-linux": {
+"handlers": ["mailer"],
+      "command": "/usr/lib64/nagios/plugins/check_users -w 5 -c 10",
+      "interval": 60,
+      "occurrences": 5,
+      "subscribers": [ "linux" ]
+        }
+      }
+    }

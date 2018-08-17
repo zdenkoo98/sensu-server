@@ -1,0 +1,10 @@
+{
+            "mailer": {
+      "admin_gui": "http://10.211.55.164:8080/",
+            "mail_from": "sensuserver",
+            "mail_to": "zhraste@edrans.com",
+            "smtp_address": "localhost",
+            "smtp_port": "25",
+            "smtp_domain": "localhost"
+            }
+}

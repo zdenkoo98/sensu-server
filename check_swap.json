@@ -1,0 +1,11 @@
+{
+     "checks": {
+        "check-swap-linux": {
+"handlers": ["mailer"],
+      "command": "/usr/lib64/nagios/plugins/check_swap -w 30% -c 20%",
+      "interval": 60,
+      "occurrences": 5,
+      "subscribers": [ "linux" ]
+        }
+      }
+    }

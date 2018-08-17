@@ -1,0 +1,11 @@
+{
+     "checks": {
+        "check-disk-load-linux": {
+"handlers": ["mailer"],
+      "command": "/usr/lib64/nagios/plugins/check_load -w 80 -c 90",
+      "interval": 60,
+      "occurrences": 5,
+      "subscribers": [ "linux" ]
+        }
+      }
+    }

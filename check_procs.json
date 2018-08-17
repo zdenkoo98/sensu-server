@@ -1,0 +1,11 @@
+{
+     "checks": {
+        "check-procs-linux": {
+"handlers": ["mailer"],
+      "command": "/usr/lib64/nagios/plugins/check_procs",
+      "interval": 60,
+      "occurrences": 5,
+      "subscribers": [ "linux" ]
+        }
+      }
+    }
