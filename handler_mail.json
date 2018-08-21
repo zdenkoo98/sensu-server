@@ -2,7 +2,7 @@
           "handlers": {
             "mailer": {
           "type": "pipe",
-          "command": "/opt/sensu/embedded/bin/handler-mailer.rb"
+          "command": "echo prueba | mail -s 'alerta' zhraste@edrans.com"
             }
           }
 }

@@ -1,7 +1,7 @@
 {
      "checks": {
         "check-http-linux": {
-"handlers": ["mailer"],
+"handlers": ["handler_mail"],
       "command": "/usr/lib64/nagios/plugins/check_http -H 10.211.55.164 -p 8080 -w 5 -c 10",
       "interval": 60,
       "occurrences": 5,
