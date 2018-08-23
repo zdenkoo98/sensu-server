@@ -11,10 +11,6 @@
             "warning": 250,
             "critical": 300
           }
-            },
-"socket": {
-          "bind": "127.0.0.1",
-          "port": 3030
             }
           }
 }
